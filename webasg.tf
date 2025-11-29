@@ -1,4 +1,4 @@
-###### Create an EC2 Auto Scaling Group - web ######
+###### Create an EC2 Auto Scaling Group - web #######
 resource "aws_autoscaling_group" "swiggy-web-asg" {
   name = "swiggy-web-asg"
   launch_template {
