@@ -1,4 +1,4 @@
-#### RDS ########
+#### RDS ######
 resource "aws_db_subnet_group" "swiggy-db-sub-grp" {
   name       = "swiggy-db-sub-grp"
   subnet_ids = ["${aws_subnet.swiggy-pvt-sub-3.id}","${aws_subnet.swiggy-pvt-sub-4.id}"]
